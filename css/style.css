@@ -244,14 +244,16 @@ main{
               @media only screen and (min-width: 992px){
                   
                 .bottom_left{
-                    width: calc(75% - 10px);
+                    width: calc(70% - 10px);
                 }
                 .bottom_right{
-                    width: calc(25% - 10px);
+                    width: calc(30% - 10px);
                 }
 
 
 
 
               }
+
+/* parte destra in alto */
 
