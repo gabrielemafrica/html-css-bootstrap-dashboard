@@ -190,6 +190,12 @@ main{
     --bs-btn-padding-x: none;
   }
 
+  /* offcanvas */
+
+  .offcanvas.offcanvas-end{
+    width: 100%;
+  }
+
 
       /* tablet */
 
@@ -205,6 +211,10 @@ main{
       /* desktop */
   
       @media only screen and (min-width: 992px){
+
+        .offcanvas.offcanvas-end{
+            width: 50%;
+          }
           
       }
 
