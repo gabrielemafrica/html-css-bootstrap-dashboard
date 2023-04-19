@@ -124,7 +124,100 @@
         </div>
 
         <!-- main -->
-        <main></main>
+
+        <main class="overflow-auto">
+
+            <!-- parte top -->
+
+            <div id="main_top" class="w-100 pt-3 pb-3 pe-5">
+
+                <div class="container-fluid d-md-flex justify-content-md-between align-items-md-center">
+
+                    <div class="nuovo_studente">
+                        <!-- elemento di bootstrap -->
+
+                        <!-- nuovo studente offcanvas -->
+                        <button class="btn btn-primary d-flex align-items-center" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                            <span class="fs-6 me-4 mb-4">Nuovo Studente</span>
+                        
+                            <i class="fa-regular fa-square-plus fs-1 mb-4"></i>
+                        </button>
+
+                        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                        <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            ...
+                        </div>
+                        </div>
+
+                    </div>
+
+                    <!--  boolean e breadcrumb -->
+                    <div class="briciole">
+                        <span class="text-white fs-3">Boolean</span>
+                        <span class="badge rounded-pill text-bg-secondary bg-black bg-opacity-25 fs-7 fw-light">Piano blaze</span>
+
+                        <nav style="--bs-breadcrumb-divider: '';" aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item">
+                                    <a href="#" class="text-white text-decoration-none">
+                                        <span class="badge rounded-pill text-bg-secondary bg-black bg-opacity-25 fs-7 fw-light">
+                                            3 app
+                                        </span>
+                                    </a>
+                                </li>
+                                <li class="breadcrumb-item" aria-current="page">
+                                    <span class="text-white fs-4 fw-light">
+                                        »
+                                    </span>
+                                </li>
+
+                                <li class="breadcrumb-item" aria-current="page">
+                                    <span class="badge rounded-pill text-bg-secondary bg-black bg-opacity-25 fs-7 fw-light on">
+                                        +
+                                    </span>
+                                </li>
+
+                                <li class="breadcrumb-item" aria-current="page">
+                                    <span class="badge rounded-pill text-bg-secondary bg-black bg-opacity-25 fs-7 fw-light off mb-1">
+                                        Boolean mobile app
+                                    </span>
+                                </li>
+
+                                <li class="breadcrumb-item" aria-current="">
+                                    <span class="badge rounded-pill text-bg-secondary bg-black bg-opacity-25 fs-7 fw-light off mb-1">
+                                        Boolean web app
+                                    </span>
+                                </li>
+
+                                <li class="breadcrumb-item" aria-current="">
+                                    <span class="badge rounded-pill text-bg-secondary bg-black bg-opacity-25 fs-7 fw-light off mb-1">
+                                        Boolean blog app
+                                    </span>    
+                                </li>
+                            </ol>
+                          </nav>
+                    </div>
+                    <div class="studenti_online">
+
+                        <span class="text-white fs-6">Studenti online negli ultimi 30 minuti</span>
+                        <h3 class="text-white">125</h3>
+
+
+                    </div>
+                </div>
+
+
+
+            </div>
+            <div id="main_bottom">
+
+            </div>
+
+        </main>
     </div>
 
 
