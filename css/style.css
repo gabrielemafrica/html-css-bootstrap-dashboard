@@ -128,6 +128,13 @@ main{
 
     @media only screen and (min-width: 768px){
 
+        .left_top .off{
+            display: table-cell;
+        }
+        .left_top .on{
+            display: none;
+        }
+
     }
 
 
@@ -140,10 +147,10 @@ main{
             width: calc(100% - 150px);
         }
 
-        main .off{
+        #main_top .off{
             display: block;
         }
-        main .on{
+        #main_top .on{
             display: none;
         }
 
@@ -200,3 +207,49 @@ main{
       @media only screen and (min-width: 992px){
           
       }
+
+      /* bottom */
+
+
+      /* parte sinistra in alto */
+
+
+      .left_top .avatar{
+        width: 30px;
+      }
+
+      .bottom_left{
+        width: 100%;
+    }
+    .bottom_right{
+        width: 100%;
+    }
+
+            /* tablet */
+
+            @media only screen and (min-width: 768px){
+
+
+
+
+
+              }
+          
+          
+          
+              /* desktop */
+          
+              @media only screen and (min-width: 992px){
+                  
+                .bottom_left{
+                    width: 75%;
+                }
+                .bottom_right{
+                    width: 25%;
+                }
+
+
+
+
+              }
+
