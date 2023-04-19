@@ -87,8 +87,8 @@ header .btn-primary{
 #side{
     max-height: 100%;
     height: 100%;
-    width: 100px;
-    background-color: black;
+    width: 60px;
+    background-color: rgb(14, 41, 63);
 }
 
 
@@ -104,8 +104,15 @@ header .btn-primary{
 
     @media only screen and (min-width: 992px){
         #side{
-            width: 200px;
+            width: 150px;
         }
+        #side .off{
+            display: block;
+        }
+        #side .on{
+            display: none;
+        }
+
     }
 
 /* main */

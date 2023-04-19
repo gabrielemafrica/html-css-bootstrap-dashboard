@@ -17,7 +17,7 @@
     <!-- header -->
     <header class="d-flex align-items-center">
         <!-- container fluid -->
-        <div class="container-fluid g-0 d-flex justify-content-between h-75 bg-white pt-1 pb-1">
+        <div class="container-fluid g-0 d-flex justify-content-between h-75 bg-white pt-1 pb-1 ps-2">
             
             <div class="container_left d-flex h-100 w-100">
             <!-- logo -->
@@ -43,16 +43,20 @@
 
                 <!-- gruppo bottoni -->
                 <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+                    <!-- bottono off -->
                     <button type="button" class="btn btn-primary off">
                         <i class="fa-solid fa-list"></i>
                     </button>
+
                     <button type="button" class="btn btn-primary off">
                         <i class="fa-solid fa-circle-question"></i>
                     </button>
+                    
                     <button type="button" class="btn btn-primary off">
                         <i class="fa-solid fa-ellipsis-vertical"></i>
                     </button>
-                    
+
+                    <!-- campanella -->
                     <div class="btn-group" role="group">
                         <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
                             <i class="fa-solid fa-bell orange"></i>
@@ -75,7 +79,49 @@
     <div id="content">
 
         <!-- side -->
-        <div id="side"></div>
+        <div id="side">
+            <div class="container-fluid g-0 h-100 pt-3 pb-3 d-flex flex-column justify-content-between">
+
+                <!-- menu importato da bootstrap -->
+
+                <ul class="nav flex-column">
+                    <li class="nav-item fs-5 mb-1">
+                        <a class="nav-link active d-flex align-items-center gap-3 justify-content-center text-white" aria-current="page" href="#">
+                            <i class="fa-solid fa-house"></i>
+                            <span class="off">Home</span>
+                        </a>
+                    </li>
+                    <li class="nav-item fs-5 mb-1">
+                        <a class="nav-link d-flex align-items-center gap-3 justify-content-center text-white" href="#">
+                            <i class="fa-solid fa-chart-simple"></i>
+                            <span class="off">Stats</span>
+                        </a>
+                    </li>
+                    <li class="nav-item fs-5 mb-1">
+                        <a class="nav-link d-flex align-items-center gap-3 justify-content-center text-white" href="#">
+                            <i class="fa-solid fa-signal"></i>
+                            <span class="off">Signals</span>
+                        </a>
+                    </li>
+                        
+                </ul>
+                
+                <ul class="nav flex-column">
+
+                    <li class="nav-item fs-5">
+                        <a class="nav-link d-flex align-items-center gap-3 justify-content-center text-white" href="#">
+                            <i class="fa-solid fa-gear"></i>
+                            <span class="off">Admin</span>
+                        </a>
+                    </li>
+                    
+                </ul>
+
+            </div>
+
+
+
+        </div>
 
         <!-- main -->
         <main></main>
